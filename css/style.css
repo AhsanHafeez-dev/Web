@@ -1,0 +1,152 @@
+body{
+    background-color: #fff;
+    color: #000;
+    
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:20px;
+    font-weight:bold;
+    
+    /* shortcut for doing same thing  */
+    font: normal 20px Arial,Helvicta,sans-serif;
+
+    line-height:1.6em;
+}
+
+
+.container
+{
+    width:70%;
+    margin:auto;
+
+}
+.box-1{
+    background-color:#333;
+    color: #fff;
+    border: 5px     red solid;
+    border-width:3px;
+    padding-top:5px;
+    margin:90px 0;
+}
+
+.box-1 h1
+{
+    font-family: Tohoma;
+    font-style:italic;
+    font-weight:800;
+    text-decoration:underline;
+    text-transform:uppercase;
+    letter-spacing:1em
+}
+
+
+.box-2
+{
+    border : 3px dotted #ccc;
+    padding : 10px;
+    margin : 20 0;
+
+}
+
+
+.category
+{
+    padding:10px;
+    border : 1px #ccc solid;
+    margin: 10px;
+    border-radius : 15px;
+
+}
+
+.category  h2
+{
+
+    text-align : center;
+}
+
+
+.category ul
+{
+    padding : 0;
+    list-style:georgian;
+    list-style:none;
+}
+
+a
+{
+    text-decoration:none;
+    color:#000
+}
+a:hover
+{
+    color: red;
+}
+
+a:active
+{
+    color: green;
+}
+
+a:visited
+{
+    color: black;
+}
+
+
+.category li
+{
+    padding: 8px;
+    border-bottom:3px #ccc dotted;
+    list-style-image:url("C: \\Users\\ok\\Pictures\\My Drive\\cnic.jpg");
+}
+
+
+.my-form
+{
+    margin : 80px 660px;
+    padding: 20px;
+    border: 3px #ccc solid;
+}
+
+.my-form label
+{
+    padding-top: 15px;
+    display:block;
+}
+
+.my-form input
+{
+    height: 20px;
+    width: 100%;
+}
+
+.my-form h3
+{
+    color: #03a;
+    text-align:center;
+}
+.button
+{
+    margin-top: 20px;
+    height: 30px;
+    display: block;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.button:hover
+{
+    color:crimson   ;
+}
+
+
+.block
+{
+    float: left;
+    width:33.3%;
+    border: 3px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+.clr{ clear: both;}
