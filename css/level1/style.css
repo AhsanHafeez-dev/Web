@@ -1,0 +1,88 @@
+h1
+{
+    color: red;
+}
+p
+{
+    color: purple;
+}
+button{
+    color: teal;
+    background-color: #000;
+}
+body{
+    background-color: #fff;
+}
+universal selector
+*{
+    color: pink;
+    background-color: #fff;
+}
+
+
+button {
+    background-color:green;
+}
+
+#box{
+    
+    font-size:20px;
+    text-align:center;
+    
+    
+}
+
+.heading {
+    color: red;
+}
+
+#lighter{
+    font-weight:lighter;
+}
+
+#normal
+{
+    font-weight:normal;
+}
+
+#bold
+{
+    font-weight:bold;
+}
+
+#bolder
+{
+    font-weight: bolder;
+}
+#one
+{
+    font-size:25px ;
+    line-height:20px;
+    text-transform: uppercase;
+}
+
+#two{
+    font-size:25px;
+    line-height: 20px;
+    text-transform:lowercase;
+
+}
+
+#q1
+{
+    text-align:center;
+    text-transform:capitalize;
+}
+
+*{
+    font-family:'Times New Roman', Times, serif
+}
+
+#outer{
+    font-size:25px;
+}
+
+#inner
+{
+    font-size:10px
+}
